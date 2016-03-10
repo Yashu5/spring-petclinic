@@ -8,7 +8,7 @@ public class MyJunitTest {
 
 
     @Test
-    public void testConcatenate() {
+    public oid testConcatenate() {
         MyJUnit myUnit = new MyJUnit();
 
         String result = myUnit.concatenate("one", "two");
