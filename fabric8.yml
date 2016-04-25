@@ -1,6 +1,5 @@
 ---
-pipeline: "workflows/maven/CanaryReleaseStageAndApprovePromote/Jenkinsfile"
 chatRoom: "test"
 issueProjectName: "test"
-buildName: "spring-petclinic"
+buildName: "spring"
 codeReview: false
