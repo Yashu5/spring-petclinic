@@ -70,6 +70,22 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <dependency>
+        <groupId>org.apache.camel</groupId>
+        <artifactId>camel-core</artifactId>
+        <version>2.17.0</version>
+      </dependency>
+            <dependency>
+        <groupId>org.apache.camel</groupId>
+        <artifactId>camel-spring</artifactId>
+        <version>2.17.0</version>
+      </dependency>
+            <dependency>
+        <groupId>org.apache.camel</groupId>
+        <artifactId>camel-test-spring</artifactId>
+        <version>2.17.0</version>
+        <scope>test</scope>
+      </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -292,6 +308,19 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-actuator</artifactId>
     </dependency>
+        <dependency>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-core</artifactId>
+    </dependency>
+        <dependency>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-spring</artifactId>
+    </dependency>
+        <dependency>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-test-spring</artifactId>
+      <scope>test</scope>
+    </dependency>
     </dependencies>
 
     <!-- Maven plugin versions are mentioned in order to guarantee the build reproducibility in the long term -->
@@ -447,6 +476,21 @@
             </goals>
           </execution>
         </executions>
+      </plugin>
+            <plugin>
+        <groupId>org.apache.camel</groupId>
+        <artifactId>camel-maven-plugin</artifactId>
+        <version>2.17.0</version>
+      </plugin>
+            <plugin>
+        <groupId>io.fabric8.forge</groupId>
+        <artifactId>fabric8-camel-maven-plugin</artifactId>
+        <version>2.2.110</version>
+      </plugin>
+            <plugin>
+        <groupId>io.hawt</groupId>
+        <artifactId>hawtio-maven-plugin</artifactId>
+        <version>1.4.63</version>
       </plugin>
         </plugins>
     </build>
