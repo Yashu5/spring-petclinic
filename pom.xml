@@ -26,6 +26,8 @@
         <fabric8.iconRef>icons/wildfly</fabric8.iconRef>
         <fabric8.label.container>spring-petclinic</fabric8.label.container>
         <fabric8.label.group>spring-petclinic</fabric8.label.group>
+        <fabric8.label.project>spring-petclinic</fabric8.label.project>
+        <fabric8.label.version>${project.version}</fabric8.label.version>
         <fabric8.readinessProbe.httpGet.path>/health</fabric8.readinessProbe.httpGet.path>
         <fabric8.readinessProbe.httpGet.port>8080</fabric8.readinessProbe.httpGet.port>
         <fabric8.readinessProbe.initialDelaySeconds>5</fabric8.readinessProbe.initialDelaySeconds>
