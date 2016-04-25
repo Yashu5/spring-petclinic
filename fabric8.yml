@@ -1,6 +1,5 @@
 ---
-pipeline: "workflows/maven/Deploy/Jenkinsfile"
 chatRoom: "test"
 issueProjectName: "test"
 buildName: "spring-petclinic"
-codeReview: false
+codeReview: true
