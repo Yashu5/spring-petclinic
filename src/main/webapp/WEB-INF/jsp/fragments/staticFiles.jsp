@@ -6,7 +6,7 @@ PetClinic :: a Spring Framework demonstration
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <title>OS PetClinic :: a Spring Framework demonstration</title>
+    <title>OpenShift PetClinic :: a Spring Framework demonstration</title>
 
 
     <spring:url value="/vendors/bootstrap/docs/assets/css/bootstrap.css" var="bootstrapCss"/>
